@@ -1,0 +1,19 @@
+{
+  "event": {
+    "Info": {
+      "Chat": "573001234567@s.whatsapp.net",
+      "Sender": "573009876543@s.whatsapp.net",
+      "IsFromMe": true,
+      "IsGroup": false,
+      "ID": "SANITIZED-FROM-ME-ID",
+      "Timestamp": "2026-09-14T12:03:00-05:00",
+      "Type": "text"
+    },
+    "Message": {
+      "conversation": "Mensaje propio sanitizado"
+    }
+  },
+  "instanceName": "test-instance",
+  "type": "Message",
+  "userID": "sanitized-user-id"
+}

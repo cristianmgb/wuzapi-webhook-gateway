@@ -1,0 +1,21 @@
+{
+  "event": {
+    "Info": {
+      "Chat": "status@broadcast",
+      "Sender": "573001234567@s.whatsapp.net",
+      "IsFromMe": false,
+      "IsGroup": false,
+      "ID": "SANITIZED-STATUS-ID",
+      "Timestamp": "2026-09-14T12:01:00-05:00",
+      "Type": "image"
+    },
+    "Message": {
+      "imageMessage": {
+        "mimetype": "image/jpeg"
+      }
+    }
+  },
+  "instanceName": "test-instance",
+  "type": "Message",
+  "userID": "sanitized-user-id"
+}

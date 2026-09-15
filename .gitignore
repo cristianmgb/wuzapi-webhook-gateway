@@ -1,0 +1,4 @@
+.env
+wuzapi-webhook-gateway
+coverage.out
+*.log

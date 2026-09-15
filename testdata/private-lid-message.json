@@ -1,0 +1,21 @@
+{
+  "event": {
+    "Info": {
+      "Chat": "123456789012345@lid",
+      "Sender": "123456789012345@lid",
+      "IsFromMe": false,
+      "IsGroup": false,
+      "ID": "SANITIZED-MESSAGE-ID-002",
+      "Timestamp": "2026-09-14T12:00:01-05:00",
+      "Type": "audio"
+    },
+    "Message": {
+      "audioMessage": {
+        "mimetype": "audio/ogg; codecs=opus"
+      }
+    }
+  },
+  "instanceName": "test-instance",
+  "type": "Message",
+  "userID": "sanitized-user-id"
+}

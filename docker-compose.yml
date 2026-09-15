@@ -1,0 +1,14 @@
+services:
+  webhook-gateway:
+    build: .
+    restart: unless-stopped
+    expose:
+      - "8080"
+    environment:
+      PORT: "8080"
+      N8N_WEBHOOK_URL: ${N8N_WEBHOOK_URL}
+      WUZAPI_HMAC_SECRET: ${WUZAPI_HMAC_SECRET}
+      REQUIRE_HMAC: ${REQUIRE_HMAC:-true}
+      N8N_FORWARD_TIMEOUT: ${N8N_FORWARD_TIMEOUT:-8s}
+      MAX_BODY_BYTES: ${MAX_BODY_BYTES:-1048576}
+      LOG_LEVEL: ${LOG_LEVEL:-info}
