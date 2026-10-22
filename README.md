@@ -68,7 +68,7 @@ O directamente:
 docker build -t wuzapi-webhook-gateway:local .
 ```
 
-Dockerfile usa Go `1.26.6`, runtime `scratch`, certificados CA y usuario `65532:65532`.
+Dockerfile usa Go `1.26.10`, runtime `scratch`, certificados CA y usuario `65532:65532`.
 
 ## Variables
 
